@@ -1,2 +1,5 @@
 # BSAN-6070
-Computer Assignment code 
+CA01
+- Installation Requirements
+- Steps to run the code
+- brief narratives of what the code is doing 
