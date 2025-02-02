@@ -3,8 +3,12 @@ This repository contains a Google Colab notebook that prepares and explores hous
 
 **Dataset**
 This data set contains various features related to houses, including size, location, and condition, along with the corresponding house prices.
+'https://github.com/ArinB/MSBA-CA-Data/raw/main/CA01/house-price-train.csv'
 
-CA01
-- Installation Requirements
-- Steps to run the code: python code version, environment
-- brief narratives of what the code is doing 
+**Libraries**
+- Pandas
+- Numpy
+- matplotlib.pyplot
+- seaborn
+
+
