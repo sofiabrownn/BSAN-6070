@@ -6,6 +6,7 @@ This project implements a Spam Email Classifier using Multinomial Naive Bayes in
 **Required Libraries**
 - NumPy for numerical computations
 - Scikit-learn for machine learning models
+- Jupyter Notebook: For interactive coding and visualization
 
 **Software and Library Versions**
 - Python 3.9+
@@ -17,4 +18,5 @@ This project implements a Spam Email Classifier using Multinomial Naive Bayes in
 The dataset consists of email files stored in
 - train-mails/ (Training emails)
 - test-mails/ (Test emails)
-- Ensure the Python notebook is in the same folder as both data sets
+
+**Note**:Ensure the Python notebook is in the same folder as both data sets
