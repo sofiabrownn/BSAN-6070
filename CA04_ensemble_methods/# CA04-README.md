@@ -4,21 +4,9 @@ This repository/notebook demonstrates how to build and evaluate various ensemble
 
 ---
 
-## Table of Contents
-
-1. [Overview](#overview)  
-2. [Dataset](#dataset)  
-3. [Models and Experiments](#models-and-experiments)  
-4. [Usage](#usage)  
-5. [Dependencies](#dependencies)  
-6. [Results](#results)  
-7. [Conclusions](#conclusions)
-
----
-
 ## Overview
 
-Ensemble methods combine multiple models (often called "weak learners") to improve predictive performance compared to individual models. This notebook focuses on four popular ensemble algorithms:
+Ensemble methods combine multiple models to improve predictive performance compared to individual models. This notebook focuses on four popular ensemble algorithms:
 
 - **Random Forest**  
 - **AdaBoost**  
@@ -34,10 +22,12 @@ We systematically vary the **n_estimators** hyperparameter for each model and me
 
 ## Dataset
 
-The dataset used here contains categorical features that have been **encoded** (some via ordinal encoding, others via one-hot encoding) and a binary target variable **y**. We split the data into:
+The dataset used here contains categorical features. The categorical variabless have been **encoded** (some via ordinal encoding, others via one-hot encoding). We split the data into:
 
 - **Training Set** (`df_train`): Used for fitting the models.  
 - **Test Set** (`df_test`): Used for evaluating final performance.
+
+To access the dataset, read the following csv into your code: https://github.com/ArinB/MSBA-CA-03-Decision-Trees/blob/master/census_data.csv?raw=true'
 
 **Important Note on Column Names**:  
 - For XGBoost, columns must not contain special characters like `[`, `]`, or `<`. We rename them if necessary.
@@ -67,8 +57,8 @@ The dataset used here contains categorical features that have been **encoded** (
 ## Usage
 
 1. **Clone or Download** the repository/notebook.  
-2. **Install Dependencies** (see [Dependencies](#dependencies) below).  
-3. **Open** the notebook in Jupyter or JupyterLab.  
+2. **Install Dependencies** (see below).  
+3. **Open** the notebook in Jupyter.  
 4. **Run the Cells** sequentially:
    - Data loading & encoding.  
    - Train/Test split.  
